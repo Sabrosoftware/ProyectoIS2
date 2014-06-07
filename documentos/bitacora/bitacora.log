@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.22)  4 JUN 2014 18:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.22)  7 JUN 2014 01:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"/home/eduardo/Unison/6toSem/Ingenieria de Software II/Proyecto/bitacora/bita
-cora.tex"
+**"/home/eduardo/Unison/6toSem/Ingenieria de Software II/Proyecto/documentos/bi
+tacora/bitacora.tex"
 
-(/home/eduardo/Unison/6toSem/Ingenieria de Software II/Proyecto/bitacora/bitaco
-ra.tex
+(/home/eduardo/Unison/6toSem/Ingenieria de Software II/Proyecto/documentos/bita
+cora/bitacora.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -442,19 +442,19 @@ File: graphics/sketch_ui.png Graphic file (type png)
 <use graphics/sketch_ui.png>
 Package pdftex.def Info: graphics/sketch_ui.png used on input line 48.
 (pdftex.def)             Requested size: 137.9979pt x 162.3292pt.
- [2 <./graphics/sketch_ui.png>] [3] [4]
+ [2 <./graphics/sketch_ui.png>] [3] [4] [5]
 (./bitacora.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
  3016 strings out of 493304
- 39026 string characters out of 6139871
+ 39059 string characters out of 6139871
  110528 words of memory out of 5000000
  6435 multiletter control sequences out of 15000+600000
  9274 words of font info for 33 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,7n,26p,718b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,26p,729b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/t
@@ -462,10 +462,10 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on bitacora.pdf (4 pages, 115643 bytes).
+Output written on bitacora.pdf (5 pages, 117722 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
