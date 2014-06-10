@@ -17,6 +17,51 @@ Este escrito es una bitácora de desarrollo en donde le daré seguimiento a un p
 
 El texto está escrito de manera informal pero técnica y está escrito para que sea leído por el profesor asesor del proyecto Adrián Vazquez Osorio y por los integrantes del equipo de trabajo Daniel Contreras Mejía y Francisco Manuel Valle Ruiz. La bitácora se va construyendo de manera temporal y contendrá descripciones sobre las entregas de trabajos asociadas al proyecto, los fallos o errores con los que nos encontramos en el transcurso del desarrollo y observaciones tanto del profesor asesor como de los integrantes del equipo sobre el trabajo realizado.
 
+Las entradas de la bitácora contienen un avance en cuestión al porcentaje de avance.
+Este porcentaje lo calculamos utilizando el calendario planeado y el siguiente programa:
+
+\begin{verbatim}
+(define actividades-por-dia
+  '(3 5 7 7 7 7 3 3 3 3 3 3 3 5 5 5 5 5 5 5 5 4 4 4 1 2))
+
+(define porcentaje-de-actividad-por-dia
+  (map (lambda (n) (/ 3.84 n)) actividades-por-dia))
+
+(define (sub-list-dias l a b)
+  (let ((desde (- a 3))
+        (hasta (- b 3)))
+    (list-head (list-tail l desde) (+ (- hasta desde) 1))))
+
+(define (porcentaje-actividad a b)
+  (apply + (sub-list-dias porcentaje-de-actividad-por-dia a b)))
+\end{verbatim}
+
+A continuación se presentan los porcentajes que aporta cada actividad:
+
+\begin{itemize}
+\item \textbf{1.1 -} 1.28\%
+\item \textbf{1.2 -} 1.28\%
+\item \textbf{1.3 -} 1.28\%
+\item \textbf{2.1 -} 0.768\%
+\item \textbf{2.2 -} 2.1943\%
+\item \textbf{2.3 -} 0.768\%
+\item \textbf{2.4 -} 2.1943\%
+\item \textbf{2.5 -} 2.9622\%
+\item \textbf{2.6 -} 2.9622\%
+\item \textbf{2.7 -} 11.9222\%
+\item \textbf{3.1 -} 3.84\%
+\item \textbf{3.2 -} 3.84\%
+\item \textbf{3.3 -} 3.84\%
+\item \textbf{4.1 -} 5.184\%
+\item \textbf{4.2 -} 5.184\%
+\item \textbf{4.3 -} 5.184\%
+\item \textbf{5.1 -} 17.2982\%
+\item \textbf{5.2 -} 17.2982\%
+\item \textbf{5.3 -} 6.72\%
+\item \textbf{6.1 -} 1.92\%
+\item \textbf{6.2 -} 1.92\%
+\end{itemize}
+
 Mi nombre es Eduardo Acuña Yeomans, soy el líder del proyecto y encargado de la documentación.
 
 \section{Descripción del proyecto}
@@ -51,8 +96,18 @@ Aquí se presenta un bosquejo de la interfaz:
 
 El Lunes 2 de Junio del 2014, después de la entrega de los documentos preeliminares, el profesor Adrian nos recuerda que la cantidad de días contemplados en la planeación exceden los días que faltan de clases (el proyecto tiene que estar terminado para el 8 de julio) por lo que algunos ajustes deben tomar lugar.
 
+\begin{itemize}
+  \item \textbf{Jueves 29:} Delegación de trabajos preeliminares \textbf{0\%}.
+  \item \textbf{Viernes 30:} Entrega de la propuesta de Manuel \textbf{0\%}.
+  \item \textbf{Sábado 31:} Entrega de el primer prototipo de Daniel \textbf{0\%}.
+  \item \textbf{Domingo 1:} Entrega de el segundo prototipo de Daniel \textbf{0\%}.
+  \item \textbf{Lunes 2:} Revisión de avances \textbf{0\%}.
+\end{itemize}
+
+El avance porcentual de estos trabajos no se toma en cuenta ya que no es parte del documento de la planeación y lo consideramos como aprendizaje necesario sobre el tipo de aplicación que será el software.
+
 \section{Entrega de documentos preeliminares}
-\textbf{Del Viernes 30 de Mayo al Martes 3 de Junio del 2014.}
+\textbf{Del Viernes 30 de Mayo al Lunes 2 de Junio del 2014.}
 
 Se realizó un documento preeliminar sobre el proyecto en donde se describen los siguientes temas:
 
@@ -66,6 +121,25 @@ Se realizó un documento preeliminar sobre el proyecto en donde se describen los
 \end{itemize}
 
 Este documento se le entregó al profesor Adrian el día Lunes 2 de Junio del 2014 y nos dió unas cuantas correcciones anotadas sobre el trabajo el día Martes 3 de Junio. Describiré las correcciones y se tomarán en cuenta para el desarrollo de proyecto.
+
+\begin{itemize}
+  \item \textbf{Viernes 30:} Apuntes de las secciones del trabajo preeliminar \textbf{0\%}.
+  \item \textbf{Sábado 31:} Elaboración del documento \textbf{0\%}.
+  \item \textbf{Domingo 1:} Elaboración e impresión del documento \textbf{0\%}.
+  \item \textbf{Lunes 2:} Entrega del documento \textbf{0\%}.
+\end{itemize}
+
+\section{Entrevista con el profesor}
+\textbf{Martes 3 de Junio}
+Después de la clase de Ingeniería de Software 2, se grabó una entrevista con el profesor, la cual tomamos como la actividad 1.1 y 1.2. La actividad 1.3 se completará ya que se escriban de manera textual los puntos tratados en la entrevista.
+
+\begin{itemize}
+\item \textbf{Martes 3 de Junio:} Entrevista con el profesor y aplicación de cuestionario \textbf{2.56\%}.
+\end{itemize}
+
+\section{Corrección del documento preeliminar}
+\textbf{Del Miercoles 4 de Junio al Jueves 6 de Junio}
+El Martes 3 de Junio el profesor nos entregó su revisión del documento preeliminar, a continuación se describen los cambios que sugirió.
 
 \subsection{Cambios en la presentación del equipo y la compañía}
 Escribir textualmente sobre la ubicación de la compañía, Licenciatura en Ciencias de la Computación del Departamento de Matemáticas de la Universidad de Sonora.
@@ -113,6 +187,12 @@ Debido al poco tiempo que queda para culminar el trabajo, es necesario realizar 
 \subsection{Cambios al análisis de riesgo}
 No se realizaron observaciones a esta sección, no porque estuviera bien lo que se describe, si no porque el profesor no tuvo oportunidad de revisarlo. Mañana (Jueves 5 de Junio del 2014) le regresaré el trabajo para que revise esta última parte.
 
+\begin{itemize}
+\item \textbf{Martes 3 de Junio:} Identificación de los cambios al documento \textbf{2.56\%}.
+\item \textbf{Miercoles 4 de Junio:} Corrección del documento \textbf{2.56\%}.
+\item \textbf{Jueves 5 de Junio:} Corrección del documento \textbf{2.56\%}.
+\end{itemize}
+
 \section{Tiempo muerto}
 \textbf{Viernes 6 de Junio del 2014}
 
@@ -136,5 +216,39 @@ Las actividades 2.5 y 2.6 le pertenecen a Francisco Manuel Valle Ruiz y debieron
 Desafortunadamente aún no se comienza la implementación del programa, por lo que en la actividad 2.7 estamos retrasados también, pero esta la iniciaremos después de este fin de semana.
 
 Hoy terminé de corregir el documento con las observaciones del profesor, tengo pendiente redactar la información de la entrevista con el profesor.
+
+\begin{itemize}
+\item \textbf{Viernes 6 de Junio:} Planeación de la delegación de trabajo para el fin de semana \textbf{2.56\%}.
+\end{itemize}
+\section{Avances del fin de semana}
+\textbf{del Sábado 7 de Junio al Domingo 8 de Junio del 2014}
+Yo no realicé trabajo del proyecto este fin de semana, sin embargo Daniel Contreras y Manuel Valle avanzaron en sus correspondientes actividades.
+
+Daniel Contreras terminó la actividad 2.1, definiendo el cuerpo de conocimiento para el proyecto:
+\begin{itemize}
+\item Familiarizarse con el uso de HTML.
+\item Familiarizarse con el uso de CSS.
+\item Familiarizarse con el uso de Javascript.
+\item Posiblemente aprender una librería para interfaces de usuario con Javascript (como JQuery).
+\item Como mezclar HTML, CSS y Javascript para el desarrollo de una página.
+\item Conceptos básicos de \emph{Web Development} y \emph{Web Applications}.
+\end{itemize}
+
+Manuel Valle escribió un prototipo de programa en donde se pueden crear archivos en PDF utilizando Javascript y la biblioteca jsPDF. El prototipo contiene un editor de textos con el que, a través de una serie de instrucciones, se puede crear un archivo en formato PDF.
+
+Actualmente, tanto Manuel como Daniel están familiarizados con HTML y CSS, yo no sé utilizarlos, entonces los tres nos estamos poniendo al corriente con el cuerpo de conocimiento hasta estar familiarizados con Javascript.
+
+\begin{itemize}
+\item \textbf{Sábado 7 de Junio:} Actividad 2.1 terminada \textbf{3.328\%}.
+\item \textbf{Domingo 8 de Junio:} Actividades 2.5 y 2.6 terminadas \textbf{9.2524\%}.
+\end{itemize}
+
+\section{Primer semana de bitácora de desarrollo}
+\textbf{Lunes 9 de Junio del 2014}
+Esta bitácora de desarrollo es parte de la actividad de documentación, estamos a 9 de Junio, dado el calendario de la planeación, la documentación hasta ahora aporta un \textbf{3.47\%}.
+
+\begin{itemize}
+\item \textbf{Lunes 9 de Junio:} Actualización de bitácora \textbf{12.7224\%}.
+\end{itemize}
 
 \end{document}
